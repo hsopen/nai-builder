@@ -1,0 +1,211 @@
+[2025-09-30 23:10:58] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:10:58] info: 登录WP后台
+[2025-09-30 23:11:28] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:11:31] info: 回到wp首页
+[2025-09-30 23:11:31] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:11:33] info: 仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:11:35] info: 回到wp首页
+[2025-09-30 23:12:17] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:12:17] info: 登录WP后台
+[2025-09-30 23:12:45] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:12:47] info: 回到wp首页
+[2025-09-30 23:12:47] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:12:49] info: 仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:12:51] info: 回到wp首页
+[2025-09-30 23:14:12] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:14:12] info: 登录WP后台
+[2025-09-30 23:14:40] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:14:42] info: 回到wp首页
+[2025-09-30 23:14:42] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:14:50] info: 仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:14:51] info: 回到wp首页
+[2025-09-30 23:15:12] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:15:12] info: 登录WP后台
+[2025-09-30 23:15:41] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:15:44] info: 回到wp首页
+[2025-09-30 23:15:44] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:15:54] info: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-09-30 23:15:56] info: 回到wp首页
+[2025-09-30 23:25:16] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:25:16] info: 登录WP后台
+[2025-09-30 23:25:16] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:25:18] info: 回到wp首页
+[2025-09-30 23:25:18] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:37:13] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:37:13] info: 登录WP后台
+[2025-09-30 23:37:41] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:37:43] info: 回到wp首页
+[2025-09-30 23:37:43] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:37:54] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-09-30 23:37:56] info: 回到wp首页
+[2025-09-30 23:38:47] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:38:47] info: 登录WP后台
+[2025-09-30 23:41:02] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:41:02] info: 登录WP后台
+[2025-09-30 23:41:24] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:41:26] info: 回到wp首页
+[2025-09-30 23:41:26] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:41:34] info: 第1次尝试分割对标站标题
+[2025-09-30 23:41:35] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-09-30 23:41:37] info: 回到wp首页
+[2025-09-30 23:50:12] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:50:12] info: 登录WP后台
+[2025-09-30 23:50:36] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:50:38] info: 回到wp首页
+[2025-09-30 23:50:38] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:50:46] info: 第1次尝试分割对标站标题
+[2025-09-30 23:50:49] error: OpenAI 请求失败: 429 gpt-4o-ca模型免费API限制每日5次请求，请00:00后再试，如有更多需求，请访问 https://api.chatanywhere.tech/#/shop 购买付费API。The free account is limited to 5 requests per day. Please try again after 00:00 the next day. If you have additional requirements, please visit https://api.chatanywhere.tech/#/shop to purchase a premium key.(当前请求使用的ApiKey: sk-QLN****raFd)【如果您遇到问题，欢迎加入QQ群咨询：1048463714】
+[2025-09-30 23:51:44] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-09-30 23:51:44] info: 登录WP后台
+[2025-09-30 23:52:08] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-09-30 23:52:10] info: 回到wp首页
+[2025-09-30 23:52:10] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-09-30 23:52:18] info: 第1次尝试分割对标站标题
+[2025-09-30 23:52:20] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-09-30 23:52:20] info: 获取到对标站favicon: https://www.shadesoflight.com/favicon-192x192.png
+[2025-09-30 23:52:22] info: 回到wp首页
+[2025-10-01 00:11:47] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:11:47] info: 登录WP后台
+[2025-10-01 00:12:10] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:12:12] info: 回到wp首页
+[2025-10-01 00:12:12] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:12:20] info: 第1次尝试分割对标站标题
+[2025-10-01 00:12:22] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:12:22] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:12:24] info: 回到wp首页
+[2025-10-01 00:20:41] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:20:41] info: 登录WP后台
+[2025-10-01 00:21:03] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:21:06] info: 回到wp首页
+[2025-10-01 00:21:06] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:21:14] info: 第1次尝试分割对标站标题
+[2025-10-01 00:21:15] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:21:15] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:21:17] info: 回到wp首页
+[2025-10-01 00:21:17] info: 获取目标网站信息成功
+[2025-10-01 00:24:22] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:24:22] info: 登录WP后台
+[2025-10-01 00:24:45] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:24:47] info: 回到wp首页
+[2025-10-01 00:24:47] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:24:54] info: 第1次尝试分割对标站标题
+[2025-10-01 00:24:56] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:24:56] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:24:58] info: 回到wp首页
+[2025-10-01 00:24:58] info: 获取目标网站信息成功
+[2025-10-01 00:24:58] info: 设置WP后台标题和icon
+[2025-10-01 00:37:11] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:37:11] info: 登录WP后台
+[2025-10-01 00:37:33] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:37:35] info: 回到wp首页
+[2025-10-01 00:37:35] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:37:43] info: 第1次尝试分割对标站标题
+[2025-10-01 00:37:45] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:37:46] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:37:48] info: 回到wp首页
+[2025-10-01 00:37:48] info: 获取目标网站信息成功
+[2025-10-01 00:37:48] info: 设置WP后台标题和icon
+[2025-10-01 00:39:34] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:39:34] info: 登录WP后台
+[2025-10-01 00:40:01] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:40:03] info: 回到wp首页
+[2025-10-01 00:40:03] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:40:11] info: 第1次尝试分割对标站标题
+[2025-10-01 00:40:12] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:40:12] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:40:14] info: 回到wp首页
+[2025-10-01 00:40:14] info: 获取目标网站信息成功
+[2025-10-01 00:40:14] info: 设置WP后台标题和icon
+[2025-10-01 00:41:44] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:41:44] info: 登录WP后台
+[2025-10-01 00:42:06] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:42:08] info: 回到wp首页
+[2025-10-01 00:42:08] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:42:16] info: 第1次尝试分割对标站标题
+[2025-10-01 00:42:17] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:42:18] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:42:20] info: 回到wp首页
+[2025-10-01 00:42:20] info: 获取目标网站信息成功
+[2025-10-01 00:42:20] info: 设置WP后台标题和icon
+[2025-10-01 00:46:40] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:46:40] info: 登录WP后台
+[2025-10-01 00:47:04] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:47:06] info: 回到wp首页
+[2025-10-01 00:47:06] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:47:14] info: 第1次尝试分割对标站标题
+[2025-10-01 00:47:15] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:47:15] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:47:17] info: 回到wp首页
+[2025-10-01 00:47:17] info: 获取目标网站信息成功
+[2025-10-01 00:47:17] info: 设置WP后台标题和icon
+[2025-10-01 00:51:32] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:51:32] info: 登录WP后台
+[2025-10-01 00:51:54] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:51:56] info: 回到wp首页
+[2025-10-01 00:51:56] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:52:05] info: 第1次尝试分割对标站标题
+[2025-10-01 00:52:06] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:52:07] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:52:09] info: 回到wp首页
+[2025-10-01 00:52:09] info: 获取目标网站信息成功
+[2025-10-01 00:52:09] info: 设置WP后台标题和icon
+[2025-10-01 00:54:55] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:54:55] info: 登录WP后台
+[2025-10-01 00:55:18] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:55:20] info: 回到wp首页
+[2025-10-01 00:55:20] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:55:28] info: 第1次尝试分割对标站标题
+[2025-10-01 00:55:30] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:55:30] error: 处理 favicon 出错: apiRequestContext.get: Client network socket disconnected before secure TLS connection was established
+Call log:
+[2m  - → GET https://www.shadesoflight.com/favicon-192x192.png[22m
+[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0[22m
+[2m    - accept: */*[22m
+[2m    - accept-encoding: gzip,deflate,br[22m
+[2m    - accept-language: en-US[22m
+[2m    - te: trailers[22m
+[2m    - cookie: frontastic-session=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImQzY2MzZTJiIn0.eyJwYXlsb2FkIjoibTViTFhmRE5uS214Q2ZvbkxxaWlKMHNkIiwibm9uY2UiOiI4T1lFMlNpTmhtRGxPNm9GIn0.AFXLjamxg_0ds05Z7cxm3a5aEVeOWQPsY8p2Yz8wf_M; _gcl_au=1.1.2001596904.1759251323; _uetsid=41bcd6e09e1e11f09fe2bfdcd1d1f884; _uetvid=41bcc7b09e1e11f0bb1ca1d7189678de; osano_consentmanager_uuid=28e7a263-ce32-42ea-91f0-da5341d535b2; osano_consentmanager=eGZDU1oozhrw6mWufa6pPl7ygguDT9sljEjZaqXI6SOjDEFZsZM3q0Rrj_koipdVE1ZgPwmv4U9IsKs2iYxZI8q8VZ2KRCriPREg8RmEIa3lN-uxHxQkRM0h3vxzKincoXiLmD09Mk1QPforM4UArynMEeXFEEYdaF_LJuD4FHbO0AkcMf3P5_dR0jMZDtcXpHZ4xw4Wi_q8V5dZHsXNUPRFw2wwj2Fxi1yeqw_i0LCzoz7RPF_c-LEC086qWx185QNKURt4T5vh8nXwTGo4DXX0PIPXM3eOytghn2czEGB8SI_MwPogL_2KxgzqgsX6WomXVXwwnP8=; _ga=GA1.1.252611931.1759251324; _ga_111111111=GS2.1.s1759251323$o1$g1$t1759251323$j60$l0$h1604621550; _ga_346TGWEQVK=GS2.1.s1759251323$o1$g0$t1759251323$j60$l0$h0; _ga_P60ZLNYKS1=GS2.1.s1759251323$o1$g0$t1759251323$j60$l0$h272929921; _pin_unauth=dWlkPU9HVmtObUZoT0RFdE1EVXdZeTAwWXpKakxUZzNNMkl0WWpZeFpHSTNOalUzWW1Ndw; _lr_hb_-hjzphf%2Fsol-site={%22heartbeat%22:1759251324567}; GSIDWvSYl5QxZaJm=755e83dc-13f7-4695-b13d-fceb0c4c8ed6; _vuid=a9abe06b-6b1e-4ce7-bdc5-df50eb2e9794; lastPath=%2F; _lr_tabs_-hjzphf%2Fsol-site={%22recordingID%22:%226-01999b8c-de94-70ca-9499-cf9324aed6c7%22%2C%22sessionID%22:0%2C%22lastActivity%22:1759251330195%2C%22hasActivity%22:true%2C%22confirmed%22:true%2C%22clearsIdentifiedUser%22:false}[22m
+
+[2025-10-01 00:55:32] info: 回到wp首页
+[2025-10-01 00:55:32] info: 获取目标网站信息成功
+[2025-10-01 00:55:32] info: 设置WP后台标题和icon
+[2025-10-01 00:57:14] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 00:57:14] info: 登录WP后台
+[2025-10-01 00:57:36] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 00:57:38] info: 回到wp首页
+[2025-10-01 00:57:38] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 00:57:46] info: 第1次尝试分割对标站标题
+[2025-10-01 00:57:47] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 00:57:48] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 00:57:50] info: 回到wp首页
+[2025-10-01 00:57:50] info: 获取目标网站信息成功
+[2025-10-01 00:57:50] info: 设置WP后台标题和icon
+[2025-10-01 01:05:23] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 01:05:23] info: 登录WP后台
+[2025-10-01 01:05:45] info: 登录成功，当前页面标题:仪表盘 ‹ 1 — WordPress
+[2025-10-01 01:05:47] info: 回到wp首页
+[2025-10-01 01:05:47] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 01:05:55] info: 第1次尝试分割对标站标题
+[2025-10-01 01:05:56] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 01:05:56] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 01:05:59] info: 回到wp首页
+[2025-10-01 01:05:59] info: 获取目标网站信息成功
+[2025-10-01 01:05:59] info: 设置WP后台标题和icon
+[2025-10-01 01:15:15] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 01:15:15] info: 登录WP后台
+[2025-10-01 01:15:39] info: 登录成功，当前页面标题:仪表盘 ‹ — WordPress
+[2025-10-01 01:15:41] info: https://homegearlife.com/wp-admin/
+[2025-10-01 01:15:41] info: 正在获取对标站https://www.shadesoflight.com/ icon以及标题
+[2025-10-01 01:15:48] info: 第1次尝试分割对标站标题
+[2025-10-01 01:15:50] info: OpenAI 请求成功: Unique High Quality Lighting, Rugs & Home Decor | Shades of Light
+[2025-10-01 01:15:50] info: favicon 已保存: C:\Users\hsopen\Source\nai-builder\assets\icons\homegearlife.com.png
+[2025-10-01 01:15:52] info: https://homegearlife.com/wp-admin/
+[2025-10-01 01:15:52] info: 获取目标网站信息成功
+[2025-10-01 01:15:52] info: 设置WP后台标题和icon
+[2025-10-01 01:16:12] info: https://homegearlife.com/wp-admin/
+[2025-10-01 01:17:58] info: 开始爬取https://homegearlife.com/wp-admin/
+[2025-10-01 01:17:58] info: 登录WP后台
+[2025-10-01 01:18:21] info: 登录成功，当前页面标题:仪表盘 ‹ Shades of Light — WordPress
+[2025-10-01 01:18:23] info: https://homegearlife.com/wp-admin/
+[2025-10-01 01:18:23] info: 设置固定链接
+[2025-10-01 01:18:30] info: https://homegearlife.com/wp-admin/

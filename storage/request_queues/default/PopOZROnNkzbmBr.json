@@ -1,0 +1,9 @@
+{
+	"id": "PopOZROnNkzbmBr",
+	"json": "{\"id\":\"PopOZROnNkzbmBr\",\"url\":\"https://homegearlife.com/wp-admin/\",\"loadedUrl\":\"https://homegearlife.com/wp-login.php?redirect_to=https%3A%2F%2Fhomegearlife.com%2Fwp-admin%2F&reauth=1\",\"uniqueKey\":\"https://homegearlife.com/wp-admin\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[\"page.waitForTimeout: Target page, context or browser has been closed\\n    at PlaywrightCrawler.requestHandler (C:\\\\Users\\\\hsopen\\\\Source\\\\nai-builder\\\\src\\\\main.ts:48:20)\\n    at async wrap (C:\\\\Users\\\\hsopen\\\\Source\\\\nai-builder\\\\node_modules\\\\.pnpm\\\\@apify+timeout@0.3.2\\\\node_modules\\\\@apify\\\\src\\\\index.ts:77:27)\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":5}},\"handledAt\":\"2025-09-30T17:18:38.133Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://homegearlife.com/wp-admin",
+	"url": "https://homegearlife.com/wp-admin/"
+}
