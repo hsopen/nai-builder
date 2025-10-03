@@ -1,0 +1,70 @@
+{
+  "usableSessionsCount": 2,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_bxdE2WhZgO",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-10-02T14:58:33.261Z",
+      "createdAt": "2025-10-02T14:08:33.261Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_O2q1xM69ZO",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "SITE_TOTAL_ID",
+            "value": "02d52b05dfa622fce36742f15c8e49af",
+            "expires": "2026-11-06T14:08:44.000Z",
+            "domain": "homegearlife.com",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-10-02T14:08:46.865Z",
+            "lastAccessed": "2025-10-02T14:08:46.865Z"
+          },
+          {
+            "key": "wordpress_test_cookie",
+            "value": "WP%20Cookie%20check",
+            "expires": "2025-10-02T14:58:46.863Z",
+            "domain": "homegearlife.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-10-02T14:08:46.865Z",
+            "lastAccessed": "2025-10-02T14:08:46.865Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-10-02T14:58:33.264Z",
+      "createdAt": "2025-10-02T14:08:33.264Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}
