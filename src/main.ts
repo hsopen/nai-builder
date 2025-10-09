@@ -1,4 +1,4 @@
-import { PlaywrightCrawler } from 'crawlee';
+import { PlaywrightCrawler, ProxyConfiguration } from 'crawlee';
 import { launchOptions } from 'camoufox-js';
 import { firefox } from 'playwright';
 import { loginWP } from './modules/login.js';
@@ -9,6 +9,7 @@ import { setPermalink } from './modules/setPermalink.js';
 import { setOptionsReading } from './modules/setOptionsReading.js';
 import { setAboutUs } from './modules/setAboutUs.js';
 import { setHomeTitle } from './modules/setHomeTitle.js';
+import { normalizeDomain } from './utils/domainUtils.js';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -17,6 +18,11 @@ interface Task {
     targetSite: string;
     status: string;
 }
+const proxyConfiguration = new ProxyConfiguration({
+    proxyUrls: [
+        'http://127.0.0.1:7890',
+    ],
+});
 
 async function crawleer(currentSite: string, targetSite: string) {
     const options = await launchOptions({
@@ -24,13 +30,14 @@ async function crawleer(currentSite: string, targetSite: string) {
     });
 
     const crawler = new PlaywrightCrawler({
+        proxyConfiguration,
         launchContext: {
             launcher: firefox,
             launchOptions: options,
         },
         maxRequestRetries: 0,
         requestHandlerTimeoutSecs: 600,
-        headless: false,
+        headless: true,
         postNavigationHooks: [
             async ({ handleCloudflareChallenge }) => {
                 if (handleCloudflareChallenge) {
@@ -63,7 +70,7 @@ async function crawleer(currentSite: string, targetSite: string) {
             // 设置Home副标题
             await setHomeTitle(page, currentSite, targetTitle)
 
-            await page.waitForTimeout(5000000)
+            await page.waitForTimeout(10000)
             logger.info(`结束爬取${currentSite}`)
         },
     });
@@ -80,14 +87,31 @@ async function main() {
         return;
     }
     const headers = lines[0]!.split(',');
-    const tasks: Task[] = lines.slice(1).map(line => {
-        const values = line.split(',');
-        return {
-            currentSite: values[0] || '',
-            targetSite: values[1] || '',
-            status: values[2] || ''
-        };
-    });
+    const tasks: Task[] = lines.slice(1)
+        .map(line => {
+            const values = line.split(',');
+            const rawCurrent = values[0]?.trim() || '';
+            const rawTarget = values[1]?.trim() || '';
+            const currentSite = normalizeDomain(rawCurrent);
+            const targetSite = normalizeDomain(rawTarget);
+            return {
+                currentSite,
+                targetSite,
+                status: values[2]?.trim() || ''
+            };
+        })
+        .filter(task => {
+            // 过滤 currentSite/targetSite 为空或无法组成合格链接的行
+            const validUrl = (url: string) => {
+                try {
+                    const u = new URL(url);
+                    return !!u.hostname;
+                } catch {
+                    return false;
+                }
+            };
+            return task.currentSite && task.targetSite && validUrl(task.currentSite) && validUrl(task.targetSite);
+        });
 
     for (const task of tasks) {
         if (task.status !== '完成') {

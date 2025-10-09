@@ -3,6 +3,7 @@ import { backToWpAdminHome } from "./backToWpAdminHome.js";
 import { logger } from "../utils/logger.js";
 import { splitTargetSiteTitle } from "../utils/openai.js";
 import sharp from "sharp";
+import { decode as decodeIco } from "sharp-ico";
 import { getProjectPath } from "../utils/getProjectPath.js";
 import fs from 'node:fs'
 import path from 'node:path'
@@ -71,8 +72,8 @@ export async function getTargetSiteInfo(page: Page, currentSite: string, targetS
   if (favicon) {
     try {
       // 解析域名
-      const urlObj = new URL(currentSite); // currentSite = 'https://homegearlife.com/some/page'
-      const hostname = urlObj.hostname; // homegearlife.com
+      const urlObj = new URL(currentSite);
+      const hostname = urlObj.hostname;
 
       // 准备保存路径
       const saveDir = getProjectPath("assets/icons");
@@ -86,8 +87,10 @@ export async function getTargetSiteInfo(page: Page, currentSite: string, targetS
 
       const buffer = Buffer.from(await res.body());
 
-      // 判断是否 SVG
+
+      // 判断是否 SVG 或 ICO
       const isSVG = favicon.endsWith(".svg") || buffer.toString("utf8", 0, 5).includes("<svg");
+      const isICO = favicon.endsWith(".ico");
 
       if (isSVG) {
         // 矢量图，转换为 256x256 PNG
@@ -95,9 +98,34 @@ export async function getTargetSiteInfo(page: Page, currentSite: string, targetS
           .resize(256, 256)
           .png()
           .toFile(savePath);
+      } else if (isICO) {
+        // ICO 格式，使用 sharp-ico 解码，选最大尺寸图层
+        const icons = decodeIco(buffer);
+        if (icons.length > 0) {
+          const largest = icons.reduce((a, b) => (a.width * a.height > b.width * b.height ? a : b));
+          let image;
+          if (largest.type === "png") {
+            image = sharp(largest.data);
+          } else {
+            image = sharp(largest.data, {
+              raw: {
+                width: largest.width,
+                height: largest.height,
+                channels: 4,
+              },
+            });
+          }
+          await image
+            .resize(256, 256)
+            .png()
+            .toFile(savePath);
+        } else {
+          throw new Error("ICO 解码失败，无有效图层");
+        }
       } else {
-        // 非矢量图，直接转换为 PNG
+        // 其他格式，直接用 sharp 处理
         await sharp(buffer)
+          .resize(256, 256)
           .png()
           .toFile(savePath);
       }

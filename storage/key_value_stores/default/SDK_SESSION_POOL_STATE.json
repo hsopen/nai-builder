@@ -3,7 +3,7 @@
   "retiredSessionsCount": 0,
   "sessions": [
     {
-      "id": "session_bxdE2WhZgO",
+      "id": "session_DkCOrwGrrr",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -16,14 +16,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-10-02T14:58:33.261Z",
-      "createdAt": "2025-10-02T14:08:33.261Z",
+      "expiresAt": "2025-10-09T04:43:43.608Z",
+      "createdAt": "2025-10-09T03:53:43.608Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_O2q1xM69ZO",
+      "id": "session_6l14oufTcj",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -34,35 +34,115 @@
         "cookies": [
           {
             "key": "SITE_TOTAL_ID",
-            "value": "02d52b05dfa622fce36742f15c8e49af",
-            "expires": "2026-11-06T14:08:44.000Z",
-            "domain": "homegearlife.com",
+            "value": "8dd4661c019eb2f286963f5c3a5413c9",
+            "expires": "2026-11-13T03:53:50.000Z",
+            "domain": "customparel.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": true,
-            "creation": "2025-10-02T14:08:46.865Z",
-            "lastAccessed": "2025-10-02T14:08:46.865Z"
+            "creation": "2025-10-09T03:53:52.820Z",
+            "lastAccessed": "2025-10-09T03:53:52.820Z"
           },
           {
-            "key": "wordpress_test_cookie",
-            "value": "WP%20Cookie%20check",
-            "expires": "2025-10-02T14:58:46.863Z",
-            "domain": "homegearlife.com",
+            "key": "sbjs_migrations",
+            "value": "1418474375998%3D1",
+            "expires": "2025-10-09T04:43:52.819Z",
+            "domain": "customparel.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-10-09T03:53:52.820Z",
+            "lastAccessed": "2025-10-09T03:53:52.820Z"
+          },
+          {
+            "key": "sbjs_current_add",
+            "value": "fd%3D2025-10-09%2003%3A53%3A51%7C%7C%7Cep%3Dhttps%3A%2F%2Fcustomparel.com%2F%7C%7C%7Crf%3D%28none%29",
+            "expires": "2025-10-09T04:43:52.819Z",
+            "domain": "customparel.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-10-09T03:53:52.820Z",
+            "lastAccessed": "2025-10-09T03:53:52.820Z"
+          },
+          {
+            "key": "sbjs_first_add",
+            "value": "fd%3D2025-10-09%2003%3A53%3A51%7C%7C%7Cep%3Dhttps%3A%2F%2Fcustomparel.com%2F%7C%7C%7Crf%3D%28none%29",
+            "expires": "2025-10-09T04:43:52.819Z",
+            "domain": "customparel.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-10-09T03:53:52.821Z",
+            "lastAccessed": "2025-10-09T03:53:52.821Z"
+          },
+          {
+            "key": "sbjs_current",
+            "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+            "expires": "2025-10-09T04:43:52.819Z",
+            "domain": "customparel.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-10-09T03:53:52.821Z",
+            "lastAccessed": "2025-10-09T03:53:52.821Z"
+          },
+          {
+            "key": "sbjs_first",
+            "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+            "expires": "2025-10-09T04:43:52.819Z",
+            "domain": "customparel.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-10-09T03:53:52.821Z",
+            "lastAccessed": "2025-10-09T03:53:52.821Z"
+          },
+          {
+            "key": "sbjs_udata",
+            "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A135.0%29%20Gecko%2F20100101%20Firefox%2F135.0",
+            "expires": "2025-10-09T04:43:52.819Z",
+            "domain": "customparel.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-10-09T03:53:52.821Z",
+            "lastAccessed": "2025-10-09T03:53:52.821Z"
+          },
+          {
+            "key": "sbjs_session",
+            "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fcustomparel.com%2F",
+            "expires": "2025-10-09T04:23:51.000Z",
+            "domain": "customparel.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-10-09T03:53:52.821Z",
+            "lastAccessed": "2025-10-09T03:53:52.821Z"
+          },
+          {
+            "key": "nasa_curent_per_shipping",
+            "value": "0",
+            "expires": "2025-10-16T03:53:52.000Z",
+            "domain": "customparel.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-10-09T03:53:52.821Z",
+            "lastAccessed": "2025-10-09T03:53:52.821Z"
+          },
+          {
+            "key": "cf_clearance",
+            "value": "ylbHGUIb7phxUTSVh6eBKQYqO_4vdw_7k2QwXghNG_I-1759982033-1.2.1.1-TAZWRCnIuwPJ9o_62A8trMNyIkX0CbnhyWOMMMVOsnlpzC4QzjfloTlC.aiv6.2kGKKKaFDkC2wlAq8CcCa0FnwWUMbWa0MJ92xmVFqxAK09SmCGQZSkYM6NELpOKTgOCHBeqrX0y.i0ZFxUeYFsbvLjyCjkXIjQwx8rxtjcmj3ce95_CGJ8.cPUpX7kcnsg8nOcrvqsPcXd_ZcxJhzB9V.O54J4ODzkova.RyfgUJM",
+            "expires": "2026-10-09T03:53:52.000Z",
+            "domain": "customparel.com",
             "path": "/",
             "secure": true,
             "httpOnly": true,
-            "hostOnly": true,
-            "creation": "2025-10-02T14:08:46.865Z",
-            "lastAccessed": "2025-10-02T14:08:46.865Z"
+            "hostOnly": false,
+            "creation": "2025-10-09T03:53:52.821Z",
+            "lastAccessed": "2025-10-09T03:53:52.821Z"
           }
         ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-10-02T14:58:33.264Z",
-      "createdAt": "2025-10-02T14:08:33.264Z",
-      "usageCount": 0,
+      "expiresAt": "2025-10-09T04:43:43.610Z",
+      "createdAt": "2025-10-09T03:53:43.610Z",
+      "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 0
     }

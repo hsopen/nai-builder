@@ -4,6 +4,7 @@ import { logger } from "../utils/logger.js";
 
 export async function loginWP(page: Page, handleCloudflareChallenge: Function, currentSite: string) {
 
+  await backToWpAdminHome(page, currentSite)
   logger.info('登录WP后台')
   while (true) {
     if (await page.$('#wpbody-content > div.wrap > h1')) {

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/main.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "openai": "^5.23.2",
     "playwright": "^1.55.1",
     "sharp": "^0.34.4",
+    "sharp-ico": "^0.1.5",
     "winston": "^3.18.1"
   },
   "devDependencies": {
