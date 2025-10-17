@@ -1,4 +1,5 @@
 node_modules
 logs
 assets/icons/*
-storage
+tasks.csv
+storage/*
