@@ -12,8 +12,11 @@ export async function loginWP(page: Page, handleCloudflareChallenge: Function, c
     }
     try {
       await page.fill('#user_login', 'admin')
+      await page.waitForTimeout(1000)
       await page.fill('#user_pass', 'admin789123')
+      await page.waitForTimeout(1000)
       await page.click('#wp-submit')
+      await page.waitForTimeout(1000)
       await page.waitForSelector('#wpbody-content > div.wrap > h1', { timeout: 5000 })
     } catch {
       await handleCloudflareChallenge()

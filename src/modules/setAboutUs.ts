@@ -7,9 +7,9 @@ import { generateAboutUs } from "../utils/openai.js";
 export async function setAboutUs(page: Page, currentSite: string, targetTitle: string[]) {
   logger.info(`设置AboutUs`)
   await page.goto(`${toWpAdminUrl(currentSite)}/edit.php?post_type=page`)
-  await page.waitForTimeout(500)
+  await page.waitForTimeout(1000)
   await page.fill('#post-search-input', 'about')
-  await page.waitForTimeout(500)
+  await page.waitForTimeout(1000)
   await page.keyboard.press('Enter')
   await page.waitForLoadState("load");
   const editElementorPage = await page.$eval('td.title.column-title.has-row-actions.column-primary.page-title > div.row-actions > span.edit_with_elementor > a', el => el.getAttribute('href') || '')
@@ -26,9 +26,9 @@ export async function setAboutUs(page: Page, currentSite: string, targetTitle: s
   await page.waitForTimeout(5000)
   await page.click('#elementor-navigator__elements > div > div > div > div.elementor-navigator__item')
   await page.keyboard.press('Delete')
-  await page.waitForTimeout(500)
+  await page.waitForTimeout(1000)
   await page.fill('#elementor-panel-elements-search-input', '标题')
-  await page.waitForTimeout(500)
+  await page.waitForTimeout(1000)
   await page.click('#elementor-panel-elements > div > button')
   await page.selectOption('#elementor-controls > div.elementor-control.elementor-control-header_size.elementor-control-type-select.elementor-label-inline.elementor-control-separator-default > div select', 'p')
 
