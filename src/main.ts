@@ -37,6 +37,7 @@ async function crawleer(currentSite: string, targetSite: string) {
         },
         maxRequestRetries: 0,
         requestHandlerTimeoutSecs: 600,
+        navigationTimeoutSecs: 120,
         headless: true,
         postNavigationHooks: [
             async ({ handleCloudflareChallenge }) => {
@@ -46,32 +47,36 @@ async function crawleer(currentSite: string, targetSite: string) {
             },
         ],
         requestHandler: async ({ page, handleCloudflareChallenge }) => {
+            try {
 
-            logger.info(`开始爬取${currentSite}`)
+                logger.info(`开始爬取${currentSite}`)
 
-            // 登录loginWP
-            await loginWP(page, handleCloudflareChallenge, currentSite)
+                // 登录loginWP
+                await loginWP(page, handleCloudflareChallenge, currentSite)
 
-            // 获取对标站主标题以及icon
-            const targetTitle = await getTargetSiteInfo(page, currentSite, targetSite)
+                // 获取对标站主标题以及icon
+                const { splitTitle, metaDescription } = await getTargetSiteInfo(page, currentSite, targetSite)
 
-            // 设置WP站主标题以及icon
-            await setCurrentSiteInfo(page, currentSite, targetTitle)
+                // 设置WP站主标题以及icon
+                await setCurrentSiteInfo(page, currentSite, splitTitle)
 
-            // 设置固定链接
-            await setPermalink(page, currentSite)
+                // 设置固定链接
+                await setPermalink(page, currentSite)
 
-            // 设置阅读隐私站点可见性`
-            await setOptionsReading(page, currentSite)
+                // 设置阅读隐私站点可见性`
+                await setOptionsReading(page, currentSite)
 
-            // 设置AboutUS
-            await setAboutUs(page, currentSite, targetTitle)
+                // 设置AboutUS
+                await setAboutUs(page, currentSite, splitTitle)
 
-            // 设置Home副标题
-            await setHomeTitle(page, currentSite, targetTitle)
+                // 设置Home副标题
+                await setHomeTitle(page, currentSite, splitTitle, metaDescription)
 
-            await page.waitForTimeout(10000)
-            logger.info(`结束爬取${currentSite}`)
+                await page.waitForTimeout(10000)
+                logger.info(`结束爬取${currentSite}`)
+            } catch (err) {
+                logger.error(`处理${currentSite}失败: ${err}`)
+            }
         },
     });
 

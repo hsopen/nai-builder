@@ -1,13 +1,13 @@
 import type { Page } from "playwright";
 import { backToWpAdminHome } from "./backToWpAdminHome.js";
 import { logger } from "../utils/logger.js";
-import { splitTargetSiteTitle } from "../utils/openai.js";
+import { getWebsiteDesc, splitTargetSiteTitle } from "../utils/openai.js";
 import sharp from "sharp";
 import { decode as decodeIco } from "sharp-ico";
 import { getProjectPath } from "../utils/getProjectPath.js";
 import fs from 'node:fs'
 import path from 'node:path'
-export async function getTargetSiteInfo(page: Page, currentSite: string, targetSite: string): Promise<string[]> {
+export async function getTargetSiteInfo(page: Page, currentSite: string, targetSite: string): Promise<{splitTitle: string[], metaDescription: string}> {
 
   logger.info(`正在获取对标站${targetSite} icon以及标题`)
   await page.goto(targetSite)
@@ -135,7 +135,30 @@ export async function getTargetSiteInfo(page: Page, currentSite: string, targetS
       logger.error(`处理 favicon 出错: ${err.message}`);
     }
   }
+
+  await page.waitForTimeout(1000)
+  // 获取 meta description（如果存在）
+  let metaDescription = 'splitTitle'
+  try {
+    metaDescription = await page.evaluate(() => {
+      return document.querySelector<HTMLMetaElement>('meta[name="description"]')?.content || ''
+    })
+    if (metaDescription) {
+      logger.info(`description: ${metaDescription}`)
+      // 若需要，可将 description 加入 splitTitle 的返回值或其它处理逻辑
+    } else {
+      logger.info(`description 不存在`)
+    }
+  } catch (err: any) {
+    logger.error(`获取 description 出错: ${err?.message ?? err}`)
+  }
+
+  metaDescription = await getWebsiteDesc(metaDescription)
+
+
   await backToWpAdminHome(page, currentSite)
   logger.info(`获取目标网站信息成功`)
-  return splitTitle
+
+
+  return {splitTitle , metaDescription };
 }

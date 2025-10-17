@@ -4,7 +4,7 @@ import { toWpAdminUrl } from "../utils/toWpAdminUrl.js";
 import { backToWpAdminHome } from "./backToWpAdminHome.js";
 import { generateAboutUs } from "../utils/openai.js";
 
-export async function setHomeTitle(page: Page, currentSite: string, targetTitle: string[]) {
+export async function setHomeTitle(page: Page, currentSite: string, targetTitle: string[], metaDescription: string) {
   logger.info(`设置Home`)
   await page.goto(`${toWpAdminUrl(currentSite)}/edit.php?post_type=page`)
   await page.waitForTimeout(5000)
@@ -38,11 +38,13 @@ export async function setHomeTitle(page: Page, currentSite: string, targetTitle:
       }
       // 无路径，继续后续操作
       await page.click('div.components-panel__body > button.rank-math-edit-snippet');
-      await page.waitForTimeout(500);
+      await page.waitForTimeout(1000);
       await page.fill('#rank-math-editor-title', ` %sitename% %sep% ${targetTitle[1]}`);
       await page.waitForTimeout(1000);
+      await page.fill('#rank-math-editor-description',metaDescription || `Welcome to %sitename%, your number one source for all things related to ${targetTitle[0]}. We're dedicated to providing you the very best of ${targetTitle[0]}, with an emphasis on quality, customer service, %sitename% has come a long way from its beginnings. When we first started out, our passion for ${targetTitle[0]} drove us to start our own business.`);
+      await page.waitForTimeout(2000);
       await page.keyboard.press('Escape');
-      await page.waitForTimeout(1000);
+      await page.waitForTimeout(2000);
       await page.click('#elementor-editor-wrapper-v2 > header > div > div > div.MuiGrid-root.MuiGrid-container> div.MuiButtonGroup-root.MuiButtonGroup-contained > button');
       await page.waitForTimeout(20000);
       success = true;
