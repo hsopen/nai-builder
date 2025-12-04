@@ -20,7 +20,7 @@ interface Task {
 }
 const proxyConfiguration = new ProxyConfiguration({
     proxyUrls: [
-        'http://127.0.0.1:7890',
+        'http://127.0.0.1:7897',
     ],
 });
 
@@ -38,7 +38,7 @@ async function crawleer(currentSite: string, targetSite: string) {
         maxRequestRetries: 0,
         requestHandlerTimeoutSecs: 600,
         navigationTimeoutSecs: 120,
-        headless: true,
+        headless: false,
         postNavigationHooks: [
             async ({ handleCloudflareChallenge }) => {
                 if (handleCloudflareChallenge) {
